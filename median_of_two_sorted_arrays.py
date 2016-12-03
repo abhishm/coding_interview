@@ -3,8 +3,7 @@ def medians(a, b):
     >>> medians([1, 2, 4, 6, 10], [4, 5, 6, 9, 12])
     11
     """
-    print a, b
-    #assert len(a) == len(b)
+    assert len(a) == len(b)
     if len(a) <= 1:
         return a[0] + b[0]
     n = len(a)
